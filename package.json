@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jrobins-open/bid#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "newsapi": "^2.4.0",
     "path": "^0.12.7",
     "xmlhttprequest": "^1.8.0"
   }

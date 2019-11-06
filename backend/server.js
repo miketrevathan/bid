@@ -2,6 +2,8 @@ var express = require('express');
 var path = require('path');      
 var app = express();
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+//const NewsAPI = require('newsapi');
+//const newsapi = new NewsAPI('8e5ca8aa98e2467485e05c7242c98de1');
 app.use(express.static('../public/'));
 
 app.get('/',function(req,res){
@@ -38,5 +40,26 @@ app.get('/users/:username/password/:password',function(req,res){ //we'll need to
     }
     res.send(msg);
 });
+
+// News API things
+// To query /v2/everything
+// You must include at least one q, source, or domain
+/*newsapi.v2.everything({
+    q: 'Chevron',
+    from: '2019-10-06',
+    to: '2019-11-06',
+    language: 'en',
+    sortBy: 'relevancy',
+  }).then(response => {
+    console.log(response);
+    /*
+      {
+        status: "ok",
+        articles: [...]
+      }
+    */
+
+
+
 
 app.listen(8080);
