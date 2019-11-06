@@ -1,0 +1,25 @@
+{
+  "name": "bid",
+  "version": "1.0.0",
+  "description": "Busines Intelligence Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrobins-open/bid.git"
+  },
+  "author": "jbr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrobins-open/bid/issues"
+  },
+  "homepage": "https://github.com/jrobins-open/bid#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
