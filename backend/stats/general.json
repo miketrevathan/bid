@@ -1,0 +1,94 @@
+{
+    "total": {
+        "Total Positive": 802,
+        "Total Negative": 632,
+        "Total Neutral": 458
+    },
+    "data": {
+        "2019-11-13": {
+            "Negative": 23,
+            "Neutral": 20,
+            "Positive": 22
+        },
+        "2019-11-12": {
+            "Negative": 17,
+            "Neutral": 22,
+            "Positive": 34
+        },
+        "2019-11-11": {
+            "Negative": 32,
+            "Neutral": 10,
+            "Positive": 22
+        },
+        "2019-11-10": {
+            "Negative": 3,
+            "Positive": 1
+        },
+        "2019-11-09": {
+            "Negative": 2,
+            "Neutral": 4,
+            "Positive": 7
+        },
+        "2019-11-08": {
+            "Negative": 41,
+            "Neutral": 20,
+            "Positive": 46
+        },
+        "2019-11-07": {
+            "Negative": 16,
+            "Neutral": 13,
+            "Positive": 50
+        },
+        "2019-11-06": {
+            "Negative": 37,
+            "Neutral": 16,
+            "Positive": 24
+        },
+        "2019-11-05": {
+            "Negative": 13,
+            "Neutral": 20,
+            "Positive": 38
+        },
+        "2019-11-04": {
+            "Negative": 15,
+            "Neutral": 12,
+            "Positive": 61
+        },
+        "2019-11-03": {
+            "Negative": 4,
+            "Neutral": 5,
+            "Positive": 7
+        },
+        "2019-11-02": {
+            "Negative": 2,
+            "Neutral": 2,
+            "Positive": 4
+        },
+        "2019-11-01": {
+            "Negative": 19,
+            "Neutral": 15,
+            "Positive": 56
+        },
+        "2019-10-31": {
+            "Negative": 38,
+            "Neutral": 11,
+            "Positive": 28
+        },
+        "2019-10-30": {
+            "Negative": 25,
+            "Neutral": 18,
+            "Positive": 55
+        },
+        "2019-10-29": {
+            "Negative": 24,
+            "Neutral": 8,
+            "Positive": 28
+        },
+        "2019-10-28": {
+            "Negative": 18,
+            "Neutral": 7,
+            "Positive": 55
+        }
+    },
+    "total_pages": 2
+}

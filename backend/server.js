@@ -5,7 +5,6 @@ var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const NewsAPI = require('newsapi');
 const newsapi = new NewsAPI('8e5ca8aa98e2467485e05c7242c98de1');
 app.use(express.static('../public/'));
-app.use(express.static('newsJSON/'));
 
 app.get('/',function(req,res){
     res.sendFile(path.join(__dirname + '/../public/index.html'));
@@ -42,9 +41,12 @@ app.get('/company/:companyname',function(req,res){ //we'll need to update this
       }
   }
   //if name found, find file to use
-    var companyjsonfile="fb.json";
-    var companyjson = require("./newsJSON/"+companyjsonfile);
-    msg={"msg":companyjson,"success":"1"};
+    var companyfile="fb.json";
+    var companynewsjson = require("./news/"+companyfile);
+    var companystatsjson = require("./stats/"+companyfile);
+    var generalstatsjson = require("./stats/general.json");
+
+    msg={"msg":"Successfully delievered","articles":companynewsjson,"stats":companystatsjson,"general_stats":generalstatsjson,"success":"1"};
 
     res.send(msg);
 });
@@ -61,41 +63,26 @@ app.get('/admin/:command/password/:password',function(req,res){ //for admin use
         }
     }
     res.send(msg);
+
+    /*savenews(json, function(err) {
+        if (err) {
+          res.status(404).send('JSON not saved');
+          return;
+        }
+    
+        res.send('JSON saved');
+      });
+    */
+    function savenews(json,name, callback) {
+      fs.writeFile('./news/'+name+'.json', JSON.stringify(json), callback);
+    }
+    function savestats(json,name, callback) {
+        fs.writeFile('./stats/'+name+'.json', JSON.stringify(json), callback);
+      }
+      
 });
 
-/*newsapi.v2.everything({
-    q: 'fb',
-    from: '2019-11-11',
-    language: 'en',
-    sortBy: 'relevancy',
-    page: 1
-  }).then(response => {
-    console.log(response);
-    /*
-      {
-        status: "ok",
-        articles: [...]
-      }
-    *
-  });
-*/
-// News API things
-// To query /v2/everything
-// You must include at least one q, source, or domain
-/*newsapi.v2.everything({
-    q: 'Chevron',
-    from: '2019-10-06',
-    to: '2019-11-06',
-    language: 'en',
-    sortBy: 'relevancy',
-  }).then(response => {
-    console.log(response);
-    /*
-      {
-        status: "ok",
-        articles: [...]
-      }
-    */
+
 
 
 

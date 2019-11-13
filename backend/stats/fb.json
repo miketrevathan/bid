@@ -1,0 +1,138 @@
+{
+    "total": {
+        "FB": {
+            "Total Positive": 177,
+            "Total Negative": 226,
+            "Total Neutral": 201
+        }
+    },
+    "data": {
+        "2019-11-13": {
+            "FB": {
+                "Negative": 2,
+                "Neutral": 3,
+                "Positive": 7
+            }
+        },
+        "2019-11-12": {
+            "FB": {
+                "Negative": 3,
+                "Neutral": 4,
+                "Positive": 11
+            }
+        },
+        "2019-11-11": {
+            "FB": {
+                "Negative": 1,
+                "Neutral": 3,
+                "Positive": 1
+            }
+        },
+        "2019-11-10": {
+            "FB": {
+                "Positive": 1
+            }
+        },
+        "2019-11-09": {
+            "FB": {
+                "Negative": 1,
+                "Neutral": 1,
+                "Positive": 1
+            }
+        },
+        "2019-11-08": {
+            "FB": {
+                "Negative": 8,
+                "Neutral": 5,
+                "Positive": 4
+            }
+        },
+        "2019-11-07": {
+            "FB": {
+                "Negative": 4,
+                "Neutral": 8,
+                "Positive": 5
+            }
+        },
+        "2019-11-06": {
+            "FB": {
+                "Negative": 10,
+                "Neutral": 6,
+                "Positive": 7
+            }
+        },
+        "2019-11-05": {
+            "FB": {
+                "Negative": 5,
+                "Neutral": 10,
+                "Positive": 3
+            }
+        },
+        "2019-11-04": {
+            "FB": {
+                "Negative": 6,
+                "Neutral": 4,
+                "Positive": 8
+            }
+        },
+        "2019-11-03": {
+            "FB": {
+                "Negative": 2,
+                "Positive": 2
+            }
+        },
+        "2019-11-02": {
+            "FB": {
+                "Negative": 3,
+                "Positive": 2
+            }
+        },
+        "2019-11-01": {
+            "FB": {
+                "Negative": 9,
+                "Neutral": 2,
+                "Positive": 5
+            }
+        },
+        "2019-10-31": {
+            "FB": {
+                "Negative": 21,
+                "Neutral": 2,
+                "Positive": 21
+            }
+        },
+        "2019-10-30": {
+            "FB": {
+                "Negative": 15,
+                "Neutral": 14,
+                "Positive": 27
+            }
+        },
+        "2019-10-29": {
+            "FB": {
+                "Negative": 13,
+                "Neutral": 6,
+                "Positive": 2
+            }
+        },
+        "2019-10-28": {
+            "FB": {
+                "Negative": 11,
+                "Neutral": 7,
+                "Positive": 3
+            }
+        },
+        "2019-10-27": {
+            "FB": {
+                "Negative": 5,
+                "Positive": 1
+            }
+        },
+        "2019-10-26": {
+            "FB": {
+                "Negative": 1
+            }
+        }
+    },
+    "total_pages": 2
+}
