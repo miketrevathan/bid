@@ -1,0 +1,766 @@
+{
+    "data": [
+        {
+            "title": "Buy Twitter, Sell Covered Calls - Keep The Yield",
+            "news_url": "https://seekingalpha.com/article/4305905-buy-twitter-sell-covered-calls-keep-yield",
+            "image_url": "https://cdn.snapi.dev/images/v1/c/c/entertainment-diversified13.jpg",
+            "text": "Buy Twitter, Sell Covered Calls - Keep The Yield",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Seeking Alpha",
+            "date": "Tue, 12 Nov 2019 15:38:23 -0500",
+            "tickers": [
+                "DIS",
+                "FB",
+                "TWTR"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook is launching a pay system across Facebook, Messenger, Instagram, WhatsApp",
+            "news_url": "https://www.marketwatch.com/story/facebook-is-launching-a-pay-system-across-facebook-messenger-instagram-whatsapp-2019-11-12",
+            "image_url": "https://cdn.snapi.dev/images/v1/w/8/wju2777-1.jpg",
+            "text": "Facebook Inc. just dove into payment systems with a service across Facebook, Messenger, Instagram, and WhatsApp.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Market Watch",
+            "date": "Tue, 12 Nov 2019 14:11:16 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Breakup Talk Will Have Little Impact on Facebook Stock",
+            "news_url": "https://investorplace.com/2019/11/break-talk-impact-fb-stock/",
+            "image_url": "https://cdn.snapi.dev/images/v1/7/4/74.jpg",
+            "text": "Talk of breaking up Facebook may lead to buying opportunities in FB stock, but with the DOJ's weak case, Facebook is FB's biggest threat.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "InvestorPlace",
+            "date": "Tue, 12 Nov 2019 13:05:32 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook wants you to pay people on Messenger, Instagram, and WhatsApp with Facebook Pay",
+            "news_url": "https://techcrunch.com/2019/11/12/facebook-wants-you-to-pay-people-on-messenger-instagram-and-whatsapp-with-facebook-pay/",
+            "image_url": "https://cdn.snapi.dev/images/v1/2/1/211.jpg",
+            "text": "\u00a0 Square. Venmo. PayPal. Apple Pay.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Tue, 12 Nov 2019 12:56:53 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook to consolidate payments tools across apps with Facebook Pay",
+            "news_url": "https://www.reuters.com/article/us-facebook-pay/facebook-to-consolidate-payments-tools-across-apps-with-facebook-pay-idUSKBN1XM2BW",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/b/fbuu.jpg",
+            "text": "Facebook Inc  said on Tuesday it was launching Facebook Pay, a service that will help consolidate payments tools across its social media platforms including Whatsapp and Instagram.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Reuters",
+            "date": "Tue, 12 Nov 2019 12:51:15 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook takes on Venmo with new payments tool that can be used across its family of apps",
+            "news_url": "https://www.cnbc.com/2019/11/12/facebook-pay-to-launch-on-messenger-whatsapp-and-instagram.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/g/h/ghbepay72-1.jpg",
+            "text": "Facebook Pay is a major step towards Facebook's goal of linking Instagram, Messenger and WhatsApp together.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Tue, 12 Nov 2019 12:25:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook's latest step to tie its apps together: Facebook Pay",
+            "news_url": "https://www.cnn.com/2019/11/12/tech/facebook-pay/index.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/9/191111170337-facebook-phone-app-stock-super-169.jpg",
+            "text": "Facebook is taking another step to tie its massive social media applications more closely together at a time when there are mounting calls for the company to be broken up.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "CNN Business",
+            "date": "Tue, 12 Nov 2019 12:00:54 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "3 Reasons Facebook's VR Bet Hasn't Paid Off...Yet",
+            "news_url": "https://www.fool.com/investing/2019/11/12/3-reasons-facebooks-vr-bet-hasnt-paid-off.aspx",
+            "image_url": "https://cdn.snapi.dev/images/v1/u/p/urlhttps3a2f2fgfoolcdncom2feditorial2fimages2f5461492foculus-questjpgw700opresize.jpg",
+            "text": "The VR industry hasn't lived up to expectations.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "The Motley Fool",
+            "date": "Tue, 12 Nov 2019 11:38:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "7 Tech Stocks to Buy for the Rest of 2019",
+            "news_url": "https://investorplace.com/2019/11/7-tech-stocks-to-buy-for-the-rest-of-2019/",
+            "image_url": "https://cdn.snapi.dev/images/v1/u/r/urlhttps3a2f2fgfoolcdncom2feditorial2fimages2f5306352fgettyimages-1069549614jpgw700opresize.jpg",
+            "text": "Historically, the end of the year is the most profitable time for stocks. With that in the mind, here are seven tech names to pick up during holiday shopping.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "InvestorPlace",
+            "date": "Tue, 12 Nov 2019 11:27:29 -0500",
+            "tickers": [
+                "AVLR",
+                "AYX",
+                "FB",
+                "INTC",
+                "SPOT",
+                "TWTR",
+                "TXN"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook Users Give the Platform a Vote of Confidence in Q3 2019",
+            "news_url": "https://www.fool.com/investing/2019/11/12/facebook-users-give-the-platform-a-vote-of-confide.aspx",
+            "image_url": "https://cdn.snapi.dev/images/v1/k/p/gettyimages-487867268jpgw618.jpg",
+            "text": "The data privacy debate has given way to a more politically charged one, but Facebook\u2019s growth is alive and well.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "The Motley Fool",
+            "date": "Tue, 12 Nov 2019 09:32:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": [
+                "earnings"
+            ]
+        },
+        {
+            "title": "3 Companies You Don't Realize You Lean On Every Day",
+            "news_url": "https://www.fool.com/investing/2019/11/12/3-companies-you-dont-realize-you-lean-on-every-day.aspx",
+            "image_url": "https://cdn.snapi.dev/images/v1/o/z/urlhttps3a2f2fgfoolcdncom2feditorial2fimages2f5474802fttdipotwitterjpgw700opresize.jpg",
+            "text": "A next-gen ad agency, a social networking giant, and an in-app communications leader are companies you can't seem to avoid these days.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "The Motley Fool",
+            "date": "Tue, 12 Nov 2019 09:20:00 -0500",
+            "tickers": [
+                "FB",
+                "TTD",
+                "TWLO"
+            ],
+            "topics": []
+        },
+        {
+            "title": "3 Reasons Why Facebook Can Maintain Its Stunning Growth Rates",
+            "news_url": "https://www.fool.com/investing/2019/11/12/3-reasons-why-facebook-can-maintain-its-stunning-g.aspx",
+            "image_url": "https://cdn.snapi.dev/images/v1/o/w/fb64-3.jpg",
+            "text": "The social media giant reported strong revenue and profit growth numbers during the last quarter. Here are three reasons why those rates are sustainable.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "The Motley Fool",
+            "date": "Tue, 12 Nov 2019 07:05:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Dutch court orders Facebook to ban celebrity crypto scam ads after another lawsuit",
+            "news_url": "https://techcrunch.com/2019/11/12/dutch-court-orders-facebook-to-ban-celebrity-crypto-scam-ads-after-another-lawsuit/",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/a/facebook-instagram-appsjpgw500.jpg",
+            "text": "A Dutch court has ruled that Facebook can be required to use filter technologies to identify and pre-emptively take down fake ads linked to crypto currency scams that carry the image of a media personality, John de Mol. The Dutch celerity filed a lawsuit against Facebook in April over the misappropriation of his likeness to [\u2026]",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Tue, 12 Nov 2019 07:04:11 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": [
+                "crypto"
+            ]
+        },
+        {
+            "title": "Facebook\u2019s New Role as News Publisher Brings New Scrutiny",
+            "news_url": "https://www.nytimes.com/2019/11/11/business/campbell-brown-facebook-news.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/m/e/merlin-163303350-946bd8fb-41c3-49c7-9e6d-ab6f1d7d35df-articlelargejpgquality75autowebpdisableupscale.jpg",
+            "text": "A quarrel arises over a newsletter\u2019s attempt to tie Campbell Brown, Facebook\u2019s news head, to articles attacking Elizabeth Warren on a website she co-founded.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "NYTimes",
+            "date": "Mon, 11 Nov 2019 17:51:51 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": [
+                "paywall"
+            ]
+        },
+        {
+            "title": "Facebook machine learning aims to modify faces, hands, and\u2026 outfits",
+            "news_url": "https://techcrunch.com/2019/11/11/facebook-machine-learning-aims-to-modify-faces-hands-and-outfits/",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/a/facebook-facial-recognitionjpgw730.jpg",
+            "text": "The latest research out of Facebook sets machine learning models to tasks that, to us, seem rather ordinary \u2014 but for a computer are still monstrously difficult.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Mon, 11 Nov 2019 15:53:03 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook finally lets you banish nav bar tabs & red dots",
+            "news_url": "https://techcrunch.com/2019/11/11/facebook-shortcut-bar-settings/",
+            "image_url": "https://cdn.snapi.dev/images/v1/t/u/turn-off-facebook-notification-dotpngw730.jpg",
+            "text": "Are those red notification dots on your Facebook home screen driving you crazy? Sick of Facebook Marketplace wasting your screen space?",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Mon, 11 Nov 2019 14:43:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": [
+                "product"
+            ]
+        },
+        {
+            "title": "There's a race to replace our iPhones with smart glasses we wear everywhere",
+            "news_url": "https://www.cnbc.com/2019/11/11/smart-glasses-that-replace-phones-may-be-the-next-hottest-tech-trend.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/s/o/sok22fap2-1.jpg",
+            "text": "Microsoft, Snap, Facebook, Google, Apple and Amazon are all racing to replace our phones with glasses we wear everywhere.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Mon, 11 Nov 2019 10:19:00 -0500",
+            "tickers": [
+                "AAPL",
+                "AMZN",
+                "FB",
+                "GOOG",
+                "GOOGL",
+                "MSFT",
+                "SNAP"
+            ],
+            "topics": [
+                "product"
+            ]
+        },
+        {
+            "title": "There could be a simple solution to Facebook\u2019s political ad woes",
+            "news_url": "https://www.fastcompany.com/90427616/there-could-be-a-simple-solution-to-facebooks-political-ad-woes",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/0/105578122-1542350000037gettyimages-158774123.jpeg",
+            "text": "David Carroll, professor and star of the Netflix doc \u2018The Great Hack,\u2019 argues that microtargeted political ads pervert the democratic process. What if Facebook just disabled them?",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "Fast Company",
+            "date": "Mon, 11 Nov 2019 08:00:02 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Stocks This Week: Buy Microchip Technology And Facebook",
+            "news_url": "https://www.forbes.com/sites/greatspeculations/2019/11/09/stocks-this-week-buy-microchip-technology-and-facebook/",
+            "image_url": "https://cdn.snapi.dev/images/v1/e/p/urlhttps3a2f2fgfoolcdncom2feditorial2fimages2f5255222fgettyimages-924403088jpgw700opresize.jpg",
+            "text": "The market has historically closed on the upside in November OPEX week since 1985 with most of the strength occurring late in the week.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Forbes",
+            "date": "Sat, 09 Nov 2019 23:49:17 -0500",
+            "tickers": [
+                "MCHP",
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Instagram will test hiding US users' likes",
+            "news_url": "https://www.cnn.com/2019/11/09/tech/instagram-hiding-likes-us/index.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/9/190429194222-20190429-instagram-likes-super-169.jpg",
+            "text": "Posting on Instagram can come with a rush of validation when likes from friends and strangers come pouring in. But those likes will soon be hidden for some US users.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "CNN Business",
+            "date": "Sat, 09 Nov 2019 11:14:06 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "How Facebook stumbled to the edge of a government breakup",
+            "news_url": "https://www.cnbc.com/2019/11/09/facebooks-antitrust-investigations-a-timeline-of-events.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/0/106200881-1571916187563rts2sjc3.jpg",
+            "text": "After a three-year string of scandals, Facebook finds itself staring down four separate antitrust investigations and a front-runner presidential candidate who has made the breakup of the company a key part of her campaign.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Sat, 09 Nov 2019 09:00:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Better Buy: Facebook vs. Line Corp",
+            "news_url": "https://www.fool.com/investing/2019/11/09/better-buy-facebook-vs-line-corp.aspx",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/m/urlhttps3a2f2fgfoolcdncom2feditorial2fimages2f5458612finstant-messagingjpgw700opresize.jpg",
+            "text": "Should investors steer clear of the troubled social media giant and invest in the growing Japanese company instead?",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "The Motley Fool",
+            "date": "Sat, 09 Nov 2019 06:15:00 -0500",
+            "tickers": [
+                "FB",
+                "LN"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Instagram to test hiding Like counts in the US next week",
+            "news_url": "https://techcrunch.com/2019/11/08/instagram-hide-likes-us/",
+            "image_url": "https://cdn.snapi.dev/images/v1/i/n/indst23-1.jpg",
+            "text": "\u201cWe will make decisions that hurt the business if they help people\u2019s well-being and health\u201d says Instagram\u2019s CEO Adam Mosseri.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Fri, 08 Nov 2019 19:25:57 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook apologizes after anonymous post alleges racism at company",
+            "news_url": "https://www.cnet.com/news/facebook-apologizes-after-anonymous-post-alleges-racism-at-company/",
+            "image_url": "https://cdn.snapi.dev/images/v1/d/o/dow2jn33-1.jpg",
+            "text": "The social media company has been accused of empowering \"racism against its employees of color.\"",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNET",
+            "date": "Fri, 08 Nov 2019 19:25:03 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook Says It\u2019s Removing Mentions Of Potential Names Of Ukraine Whistleblower",
+            "news_url": "https://deadline.com/2019/11/facebook-whistleblower-1202781821/",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/a/facebook.jpg",
+            "text": "Facebook said Friday that it will remove mentions that name the whistleblower who filed a complaint over President Donald Trump\u2019s July 25 phone call with the president of Ukraine, triggering the current impeachment inquiry. \u201cAny mention of the potential whistleblower\u2019s name violates our coordinating harm policy, which prohibits content \u2018outing of witness, informant, or activist,\u2019",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "Deadline",
+            "date": "Fri, 08 Nov 2019 18:44:40 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Top Facebook exec who left this year says political ads should be fact checked",
+            "news_url": "https://www.cnbc.com/2019/11/08/facebook-former-exec-chris-cox-political-ads-should-be-fact-checked.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/0/102779484-gettyimages-163294178.jpg",
+            "text": "In September, Facebook said that it will not fact check or remove content posted by politicians except with a few exceptions.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Fri, 08 Nov 2019 18:16:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook apologizes after employees complain about racist company culture",
+            "news_url": "https://www.cnbc.com/2019/11/08/facebook-racism-complaints-by-anonymous-employees-company-apologizes.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/b/fb64-3.jpg",
+            "text": "Facebook on Friday issued an apology following an anonymous blog post complaining about a racist culture toward black, Hispanic and female Asian employees at the social media company.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Fri, 08 Nov 2019 18:12:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook co-founder Chris Hughes doesn't recall Zuckerberg discussing the Iraq War at Harvard",
+            "news_url": "https://www.cnbc.com/2019/11/08/facebook-co-founder-chris-hughes-says-zuckerberg-didnt-talk-iraq.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/x/z/xzuk2-1.jpg",
+            "text": "Hughes said on Friday that Zuckerberg's claim that the Iraq War helped shape his views on free speech doesn't sound quite right.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Fri, 08 Nov 2019 18:01:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook co-founder: Allowing false political ads skirts 'responsibility to democracy'",
+            "news_url": "https://www.cnet.com/news/facebook-co-founder-allowing-false-political-ads-skirts-responsibility-to-democracy/",
+            "image_url": "https://cdn.snapi.dev/images/v1/s/w/swj22b2-1.jpg",
+            "text": "Chris Hughes, who left Facebook in 2007, also said Mark Zuckerberg's claim Facebook was founded as a reaction to the Iraq war was \"new to me.\"",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNET",
+            "date": "Fri, 08 Nov 2019 17:27:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook says it is removing 'any and all mention of the potential whistleblower's name'",
+            "news_url": "https://www.cnn.com/2019/11/08/tech/facebook-whistleblower-name/index.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/9/191030184546-facebook-headquarters-file-super-169.jpg",
+            "text": "Facebook said Friday that it was removing content that mentioned any potential name of the whistleblower whose complaint sparked an impeachment probe into President Trump.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "CNN Business",
+            "date": "Fri, 08 Nov 2019 16:52:09 -0500",
+            "tickers": [
+                "FB",
+                "GOOG"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook\u2019s first experimental apps from its \u2018NPE Team\u2019 division focus on students, chat & music",
+            "news_url": "https://techcrunch.com/2019/11/08/facebooks-first-experimental-apps-from-its-npe-team-division-focus-on-students-chat-music/",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/a/facebook-appjpgw640.jpg",
+            "text": "This July, Facebook announced a new division called NPE Team which would build experimental consumer-facing apps, allowing the company to try out new ideas and features to see how people would react.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Fri, 08 Nov 2019 16:05:38 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook's plan to integrate Messenger, WhatsApp and Instagram might be tougher than it looks",
+            "news_url": "https://www.cnet.com/news/facebooks-plan-to-integrate-messenger-whatsapp-and-instagram-might-be-tougher-than-it-looks/",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/q/whatsapp-instagramjpgw730.jpg",
+            "text": "WhatsApp co-founder Brian Acton called Facebook's efforts a \"very tall order.\"",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNET",
+            "date": "Fri, 08 Nov 2019 15:55:52 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "What's Revealed in Facebook's Leaked Documents",
+            "news_url": "https://www.youtube.com/watch?v=NkfDR62Xdco",
+            "image_url": "https://cdn.snapi.dev/images/v1/m/q/whats-revealed-in-facebooks-leaked-documents.jpg",
+            "text": "Nov.08 -- Leaked Facebook documents suggest business considerations outweigh privacy concerns.",
+            "sentiment": "Neutral",
+            "type": "Video",
+            "source_name": "Bloomberg Technology",
+            "date": "Fri, 08 Nov 2019 15:38:44 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook will remove posts that name the Ukraine whistleblower",
+            "news_url": "https://www.cnbc.com/2019/11/08/facebook-will-remove-posts-that-name-the-ukraine-whistleblower.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/1/9/191017090323-01-mark-zuckerberg-0524-file-super-169.jpg",
+            "text": "Facebook is taking down any content that seeks to unmask the Ukraine whistleblower from its platform.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Fri, 08 Nov 2019 15:27:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook, Google Considering Changes In Political Ad Policies",
+            "news_url": "https://www.benzinga.com/general/politics/19/11/14770539/facebook-google-considering-changes-in-political-ad-policies",
+            "image_url": "https://cdn.snapi.dev/images/v1/c/a/capitol-720677-1280-11.jpg",
+            "text": "Facebook Inc. (NASDAQ: FB) and Alphabet Inc.'s (NASDAQ: GOOG) (NASDAQ: GOOGL) Google are considering changing policies on political ads, weighing the costs of being in the middle of the debate over truth in political speech against the multibillion-dollar election-year opportunity.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "Benzinga",
+            "date": "Fri, 08 Nov 2019 13:15:11 -0500",
+            "tickers": [
+                "FB",
+                "GOOG",
+                "GOOGL"
+            ],
+            "topics": []
+        },
+        {
+            "title": "5 Stocks to Buy With Leadership From All-Star Management Teams",
+            "news_url": "https://investorplace.com/2019/11/5-stocks-to-buy-with-leadership-from-all-star-management-teams/",
+            "image_url": "https://cdn.snapi.dev/images/v1/c/e/ceo-768x432.jpg",
+            "text": "Behind every great stock is a great management team. These five stocks may have the best management teams out there.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "InvestorPlace",
+            "date": "Fri, 08 Nov 2019 11:34:45 -0500",
+            "tickers": [
+                "ADBE",
+                "CHGG",
+                "CMG",
+                "FB",
+                "MSFT"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Apple, Facebook, Google and Amazon are putting billions of dollars toward affordable housing \u2014 but that money may be too little, too late",
+            "news_url": "https://www.marketwatch.com/story/apple-facebook-google-and-amazon-are-putting-billions-of-dollars-toward-affordable-housing-but-that-money-may-be-too-little-too-late-2019-11-08",
+            "image_url": "https://cdn.snapi.dev/images/v1/m/w/mw-hu709-tech-h-20191105163456-zhjpguuid1cb1f776-0014-11ea-b2d3-9c8e992d421e.jpg",
+            "text": "Housing prices have skyrocketed in cities like San Francisco and Seattle, and tech companies are scrambling to ensure there\u2019s an affordable place to live for their workforces.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "Market Watch",
+            "date": "Fri, 08 Nov 2019 10:15:32 -0500",
+            "tickers": [
+                "AAPL",
+                "AMZN",
+                "FB",
+                "GOOG",
+                "GOOGL"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook, Alphabet are the most likely tech giants to face antitrust action next year, Cowen says",
+            "news_url": "https://www.cnbc.com/2019/11/08/facebook-google-likely-to-face-antitrust-suits-analysts-say.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/f/v/faang6.jpg",
+            "text": "State probes into Google and Facebook \"could be viewed as political grandstanding. We think that would be a mistake,\" the analysts wrote.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Fri, 08 Nov 2019 09:49:00 -0500",
+            "tickers": [
+                "GOOG",
+                "GOOGL",
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Artificial Intelligence Stocks To Buy And Watch Amid Rising AI Competition",
+            "news_url": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "image_url": "https://cdn.snapi.dev/images/v1/a/a/aai92-1.jpg",
+            "text": "When looking for the best artificial intelligence stocks to buy, investors should expand their search to unexpected fields.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Investors Business Daily",
+            "date": "Fri, 08 Nov 2019 09:00:48 -0500",
+            "tickers": [
+                "AMZN",
+                "FB",
+                "GOOG",
+                "GOOGL",
+                "MSFT"
+            ],
+            "topics": []
+        },
+        {
+            "title": "WhatsApp adds shopping catalog feature, courting e-commerce",
+            "news_url": "https://www.reuters.com/article/us-facebook-whatsapp-shopping/whatsapp-adds-shopping-catalog-feature-courting-e-commerce-idUSKBN1XI050",
+            "image_url": "https://cdn.snapi.dev/images/v1/u/c/3i4677-1.jpg",
+            "text": "Facebook Inc  on Thursday launched a catalog feature for its WhatsApp messaging app, it said in a blog post, building out the service's e-commerce tools as it moves slowly toward monetizing the app it bought in 2014 for $19 billion.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "Reuters",
+            "date": "Thu, 07 Nov 2019 20:23:31 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Legislators from ten parliaments put the squeeze on Facebook",
+            "news_url": "https://techcrunch.com/2019/11/07/legislators-from-ten-parliaments-put-the-squeeze-on-facebook/",
+            "image_url": "https://cdn.snapi.dev/images/v1/s/d/sd.jpg",
+            "text": "The third session of the International Grand Committee on Disinformation, a multi-nation body comprised of global legislators with concerns about the societal impacts of social media giants, has been taking place in Dublin this week \u2014 once again without any senior Facebook management in attendance.",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Thu, 07 Nov 2019 16:47:27 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Libra\u2019s critics are missing the forest for the trees",
+            "news_url": "https://techcrunch.com/2019/11/07/libras-critics-are-missing-the-forest-for-the-trees/",
+            "image_url": "https://cdn.snapi.dev/images/v1/c/e/facebook-4.jpg",
+            "text": "Critics of Facebook's proposed stablecoin are well-intentioned, but they're missing the forest for the trees.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Thu, 07 Nov 2019 15:20:51 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Here are the 10 companies with the most cash on hand",
+            "news_url": "https://www.cnbc.com/2019/11/07/microsoft-apple-and-alphabet-are-sitting-on-more-than-100-billion-in-cash.html",
+            "image_url": "https://cdn.snapi.dev/images/v1/s/t/stock923.jpg",
+            "text": "Several companies, including Microsoft, Berkshire Hathaway, Alphabet and Apple are sitting on more than $100 billion dollars of cash, which is leading some on Wall Street to question why America's largest companies aren't spending.",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "CNBC",
+            "date": "Thu, 07 Nov 2019 15:18:00 -0500",
+            "tickers": [
+                "AAPL",
+                "AMZN",
+                "BMY",
+                "BRK-A",
+                "BRK-B",
+                "CSCO",
+                "F",
+                "FB",
+                "GOOG",
+                "GOOGL",
+                "MSFT",
+                "ORCL"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Facebook: we would let Tories run 'doctored' Starmer video as ad",
+            "news_url": "https://www.theguardian.com/technology/2019/nov/07/facebook-we-would-let-tories-run-doctored-starmer-video-as-ad",
+            "image_url": "https://cdn.snapi.dev/images/v1/2/2/2265jpgwidth460quality85autoformatfitmaxs186c44706cc2e9a343f132235385e9fe.jpg",
+            "text": "Social network says policy of allowing misinformation opens up political debate",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "The Guardian",
+            "date": "Thu, 07 Nov 2019 13:46:15 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "NYT's Farhad Manjoo: Lack of clarity makes it hard to ban political ads",
+            "news_url": "https://www.youtube.com/watch?v=rpqhTYHrhw4",
+            "image_url": "https://cdn.snapi.dev/images/v1/a/d/adsn2224o-1.jpg",
+            "text": "Farhad Manjoo of NYT and Bethany McLean of Vanity Fair join \"Squawk Alley\" to discuss moves by tech companies to ban political ads as well as allegations two former Twitter employees spied for Saudi Arabia.",
+            "sentiment": "Neutral",
+            "type": "Video",
+            "source_name": "CNBC Television",
+            "date": "Thu, 07 Nov 2019 13:01:25 -0500",
+            "tickers": [
+                "FB",
+                "GOOG",
+                "GOOGL",
+                "TWTR"
+            ],
+            "topics": []
+        },
+        {
+            "title": "Antitrust Laws Favor Facebook for Now, Says Michael Pachter of Wedbush",
+            "news_url": "https://www.youtube.com/watch?v=NNkq11UDZ6E",
+            "image_url": "https://cdn.snapi.dev/images/v1/m/q/antitrust-laws-favor-facebook-for-now-says-michael-pachter-of-wedbush.jpg",
+            "text": "Wedbush Securities Analyst,Michael Pachter discusses the U.S. Justice Department's plans to launch a probe into giant technology companies over alleged anti-competitive practices. He speaks with Bloomberg's Jonathan Ferro on \"Bloomberg: The Open.\"",
+            "sentiment": "Positive",
+            "type": "Video",
+            "source_name": "Bloomberg Technology",
+            "date": "Thu, 07 Nov 2019 12:00:39 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "WhatsApp messages urge Hindus to vote against Labour",
+            "news_url": "https://news.sky.com/story/general-election-whatsapp-messages-urge-british-hindus-to-vote-against-labour-11856692",
+            "image_url": "https://cdn.snapi.dev/images/v1/w/j/whyy72-1.jpg",
+            "text": "Messages urging British Hindus to vote against Labour in the general election are being circulated on WhatsApp, raising concerns about the chat app's role in spreading divisive political content.",
+            "sentiment": "Neutral",
+            "type": "Article",
+            "source_name": "Skynews",
+            "date": "Thu, 07 Nov 2019 11:44:00 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "WhatsApp\u2019s latest feature, Catalogs, caters to small businesses skipping the web for mobile",
+            "news_url": "https://techcrunch.com/2019/11/07/whatsapps-latest-feature-catalogs-caters-to-small-businesses-skipping-the-web-for-mobile/",
+            "image_url": "https://cdn.snapi.dev/images/v1/w/h/wht322-1.jpg",
+            "text": "WhatsApp is expanding the capabilities of its dedicated app for business owners who want to reach their customers on smartphones. The Facebook-owned company is today introducing a new \u201ccatalogs\u201d feature to the WhatsApp Business app that will allow the businesses to showcase and share their products and services to potential customers, who can browse photos, [\u2026]",
+            "sentiment": "Positive",
+            "type": "Article",
+            "source_name": "TechCrunch",
+            "date": "Thu, 07 Nov 2019 11:00:58 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": []
+        },
+        {
+            "title": "The 2020 Election Is a Huge Test for Us, Says Facebook COO Sandberg",
+            "news_url": "https://www.youtube.com/watch?v=g_AA1fNJJgo",
+            "image_url": "https://cdn.snapi.dev/images/v1/m/q/the-2020-election-is-a-huge-test-for-us-says-facebook-coo-sandberg.jpg",
+            "text": "Facebook Chief Operating Officer Sheryl Sandberg discusses the social-media company's preparations for the 2020 U.S. presidential election. She speaks with Bloomberg's Caroline Hyde at The Year Ahead Summit in New York.",
+            "sentiment": "Neutral",
+            "type": "Video",
+            "source_name": "Bloomberg Technology",
+            "date": "Thu, 07 Nov 2019 10:26:08 -0500",
+            "tickers": [
+                "FB"
+            ],
+            "topics": [
+                "COO"
+            ]
+        },
+        {
+            "title": "Google and Facebook 'considering ban on micro-targeted political ads'",
+            "news_url": "https://www.theguardian.com/media/2019/nov/07/google-facebook-considering-ban-micro-targeted-political-ads",
+            "image_url": "https://cdn.snapi.dev/images/v1/4/0/4000jpgwidth460quality85autoformatfitmaxs0fa3234efc0c40297d3f017c1eb6c417.jpg",
+            "text": "Reports say firms may act over concerns that practice risks damaging democratic norms",
+            "sentiment": "Negative",
+            "type": "Article",
+            "source_name": "The Guardian",
+            "date": "Thu, 07 Nov 2019 10:17:15 -0500",
+            "tickers": [
+                "FB",
+                "GOOGL"
+            ],
+            "topics": []
+        }
+    ]
+}

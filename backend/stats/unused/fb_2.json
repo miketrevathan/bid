@@ -1,0 +1,101 @@
+{
+    "total": {
+        "FB": {
+            "Total Positive": 177,
+            "Total Negative": 226,
+            "Total Neutral": 201
+        }
+    },
+    "data": {
+        "2019-10-26": {
+            "FB": {
+                "Neutral": 6,
+                "Positive": 3
+            }
+        },
+        "2019-10-25": {
+            "FB": {
+                "Negative": 2,
+                "Neutral": 15,
+                "Positive": 7
+            }
+        },
+        "2019-10-24": {
+            "FB": {
+                "Negative": 10,
+                "Neutral": 11,
+                "Positive": 3
+            }
+        },
+        "2019-10-23": {
+            "FB": {
+                "Negative": 29,
+                "Neutral": 23,
+                "Positive": 12
+            }
+        },
+        "2019-10-22": {
+            "FB": {
+                "Negative": 13,
+                "Neutral": 16,
+                "Positive": 7
+            }
+        },
+        "2019-10-21": {
+            "FB": {
+                "Negative": 2,
+                "Neutral": 21,
+                "Positive": 7
+            }
+        },
+        "2019-10-20": {
+            "FB": {
+                "Negative": 5,
+                "Neutral": 2,
+                "Positive": 1
+            }
+        },
+        "2019-10-19": {
+            "FB": {
+                "Negative": 1,
+                "Positive": 1
+            }
+        },
+        "2019-10-18": {
+            "FB": {
+                "Negative": 9,
+                "Neutral": 6,
+                "Positive": 3
+            }
+        },
+        "2019-10-17": {
+            "FB": {
+                "Negative": 5,
+                "Neutral": 13,
+                "Positive": 6
+            }
+        },
+        "2019-10-16": {
+            "FB": {
+                "Negative": 4,
+                "Neutral": 8,
+                "Positive": 4
+            }
+        },
+        "2019-10-15": {
+            "FB": {
+                "Negative": 6,
+                "Neutral": 2,
+                "Positive": 7
+            }
+        },
+        "2019-10-14": {
+            "FB": {
+                "Negative": 20,
+                "Neutral": 3,
+                "Positive": 5
+            }
+        }
+    },
+    "total_pages": 2
+}

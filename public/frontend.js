@@ -1,54 +1,74 @@
+var httpGet = function(theUrl)
+{
+   // document.getElementById('heading').innerText='Here we go!';
+    //console.log(theUrl);
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var res=JSON.parse(xmlHttp.responseText);
+            if (res.success==1){ //Good login
+                console.log("Hello");
+                articles=res.articles// Create
+                stats=res.stats;
+                generalStats=res.general_stats;
+                console.log(articles);
+                console.log(stats);
+                console.log(generalStats);
+                newsApiOutput=articles;
+                displayNews(newsApiOutput);
+            }
+            else{ //Bad login
+                console.log("Error somewhere");//document.getElementById('loginErrorMsg').innerHTML=res.msg;
+            }
+        }
+    }  
+    xmlHttp.open("GET", theUrl, true); //true for asynchronous
+    xmlHttp.send();
+}
+
+
+
 var map;
 
 function searchNews(){
-   /* var url = 'https://newsapi.org/v2/everything?' +
-            'q=Chevron&' +
-            'from=2019-10-06&' +
-            'sortBy=popularity&' +
-            'apiKey=8e5ca8aa98e2467485e05c7242c98de1';
-
-    var req = new Request(url);
-
-    var newResJSON = fetch(req)
-        .then(function(response) {
-            var newsResJSON=response.json();
-            console.log(newsResJSON);
-            newsApiOutput=newsResJSON.Promise.[[PromiseValue]];
-            console.log(newsApiOutput);
-            return newsResJSON;
-        })
-
-        console.log(newResJSON);
-*/
-var newsApiOutput={"status":"ok","totalResults":1937,"articles":[{"source":{"id":"techcrunch","name":"TechCrunch"},"author":"Jonathan Shieber","title":"Plug and Play launches an accelerator to develop technologies addressing plastic waste","description":"The Plug and Play network of accelerator programs is partnering with the non-profit organization The Alliance to End Plastic Waste to create an accelerator focused on developing technologies to reduce, remove or replace plastics in the industrial ecosystem. L…","url":"http://techcrunch.com/2019/10/23/plug-and-play-launches-an-accelerator-to-develop-technologies-addressing-plastic-waste/","urlToImage":"https://techcrunch.com/wp-content/uploads/2015/12/shutterstock_320894498.jpg?w=600","publishedAt":"2019-10-23T14:01:52Z","content":"The Plug and Play network of accelerator programs is partnering with the non-profit organization The Alliance to End Plastic Waste to create an accelerator focused on developing technologies to reduce, remove or replace plastics in the industrial ecosystem.\r\n… [+2054 chars]"},{"source":{"id":"techcrunch","name":"TechCrunch"},"author":"Jonathan Shieber","title":"Substance abuse affects about 15% of American employees, Path wants to ensure they get help","description":"America has an addiction problem. It’s a problem that serial entrepreneur Josh Bruno has seen first hand. And it’s why he’s launched a new company called Path, which pitches access to specialized substance addiction treatment professionals as an employee heal…","url":"http://techcrunch.com/2019/10/23/substance-abuse-affects-about-15-of-american-employees-path-wants-to-ensure-they-get-help/","urlToImage":"https://techcrunch.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-23-at-12.05.07-PM.png?w=748","publishedAt":"2019-10-23T19:05:51Z","content":"America has an addiction problem.\r\nIt’s a problem that serial entrepreneur Josh Bruno has seen first hand. And it’s why he’s launched a new company called Path, which pitches access to specialized substance addiction treatment professionals as an employee hea… [+4279 chars]"},{"source":{"id":null,"name":"Gizmodo.com"},"author":"Yessenia Funes on Earther, shared by Andrew Couts to Gizmodo","title":"Hurricane Dorian Spilled More Than a Million Gallons of Oil in the Bahamas","description":"Nearly 1.5 million gallons of oil have spilled since Hurricane Dorian destroyed an oil storage facility on Grand Bahama Island last month. The worst part? Equinor, the company that owns the oil facility, still isn’t done cleaning up the mess, which means the …","url":"https://earther.gizmodo.com/hurricane-dorian-spilled-than-a-million-gallons-of-oil-1838844023","urlToImage":"https://i.kinja-img.com/gawker-media/image/upload/s--h8jrKmXo--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/wppxixmajwzo3ej4damb.jpg","publishedAt":"2019-10-07T15:39:00Z","content":"Nearly 1.5 million gallons of oil have spilled since Hurricane Dorian destroyed an oil storage facility on Grand Bahama Island last month. The worst part? Equinor, the company that owns the oil facility, still isnt done cleaning up the mess, which means the f… [+2480 chars]"},{"source":{"id":null,"name":"Gizmodo.com"},"author":"Bryan Menegus on Earther, shared by Rose Pastore to Gizmodo","title":"1,000 Google Employees Are Sick of Their Bosses' Half-Assed Climate Efforts","description":"Google—a company headquartered on Earth—has not always been keen to cave to the demands of its increasingly vocal and organized staff. Nonetheless, 1,000 Googlers have now signed a letter seeking to force the company to reckon with its role in accelerating cl…","url":"https://earther.gizmodo.com/1-000-google-employees-are-sick-of-their-bosses-half-as-1839612519","urlToImage":"https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/gjcncprne81epuhejvt5.jpg","publishedAt":"2019-11-04T20:03:00Z","content":"Googlea company headquartered on Earthhas notalways been keen to cave to the demands of its increasingly vocal and organized staff. Nonetheless, 1,000 Googlers have now signed a letter seeking to force the company to reckon with its role in accelerating clima… [+5027 chars]"},{"source":{"id":null,"name":"Blog.google"},"author":"Salt WhiskersBarber extraordinaire","title":"Here's a 'stache of Movember trends from Google Search","description":"November is here, ushering in chilly weather, pumpkin-flavored everything, and 30 days of whiskers appearing on upper lips in support of men’s health causes. This four-week phase of facial fuzz is also known as Movember. We peeked at Google Images trends to s…","url":"https://www.blog.google/products/search/heres-stache-movember-trends-google-search/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29","urlToImage":"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Movember_beards.gif","publishedAt":"2019-11-01T16:00:00Z","content":"November is here, ushering in chilly weather, pumpkin-flavored everything, and 30 days of whiskers appearing on upper lips in support of mens health causes. This four-week phase of facial fuzz is also known as Movember.\r\nWe peeked at Google Images trends to s… [+2675 chars]"},{"source":{"id":"reuters","name":"Reuters"},"author":"Marianna Parraga","title":"U.S. oil major Chevron set to receive Venezuelan crude cargo: document","description":"U.S. oil major Chevron Corp is scheduled this month to receive at least one cargo of crude oil from sanctioned Venezuelan state oil company PDVSA, according to an internal PDVSA document.","url":"https://www.reuters.com/article/us-chevron-venezuela-crude-idUSKBN1WY025","urlToImage":"https://s2.reutersmedia.net/resources/r/?m=02&d=20191019&t=2&i=1442523255&w=1200&r=LYNXMPEF9I024","publishedAt":"2019-10-19T02:46:24Z","content":"(Reuters) - U.S. oil major Chevron Corp (CVX.N) is scheduled this month to receive at least one cargo of crude oil from sanctioned Venezuelan state oil company PDVSA, according to an internal PDVSA document. \r\nIf the loading proceeds, it would be the first sh… [+1924 chars]"},{"source":{"id":"reuters","name":"Reuters"},"author":"Reuters Editorial","title":"Factbox: Saudi Aramco - the oil colossus","description":"The world's largest oil producer, Saudi Aramco, has announced its intention to float in Riyadh in what could be the biggest stock market listing in history.","url":"https://www.reuters.com/article/us-saudi-aramco-ipo-factbox-idUSKBN1XE18Z","urlToImage":"https://s3.reutersmedia.net/resources/r/?m=02&d=20191104&t=2&i=1448290108&w=1200&r=LYNXMPEFA30WQ","publishedAt":"2019-11-04T12:27:30Z","content":"DUBAI (Reuters) - The world’s largest oil producer, Saudi Aramco, has announced its intention to float in Riyadh in what could be the biggest stock market listing in history. \r\nBelow are key facts about Aramco: \r\nHISTORY \r\nExplorers from the Rockefeller famil… [+3428 chars]"},{"source":{"id":null,"name":"Slashdot.org"},"author":"BeauHD","title":"Now Googlers Are Protesting Company's Cloud Deals With Big Oil","description":"Activists inside Google are calling on management to ditch deals with oil and gas companies, the latest flare-up inside the technology giant. Bloomberg reports: In a letter published on Monday, more than 1,100 workers asked Google Chief Financial Officer Ruth…","url":"https://tech.slashdot.org/story/19/11/04/225233/now-googlers-are-protesting-companys-cloud-deals-with-big-oil","urlToImage":"https://a.fsdn.com/sd/topics/topicgoogle_fb.gif","publishedAt":"2019-11-05T00:40:00Z","content":"In a letter published on Monday, more than 1,100 workers asked Google Chief Financial Officer Ruth Porat to release a \"company-wide climate plan\" that commits to cutting carbon emissions entirely. The letter also asks Google to drop contracts that \"enable or … [+979 chars]"},{"source":{"id":"business-insider","name":"Business Insider"},"author":"Ben Winck","title":"Dow soars to record high on trade optimism, joining other major US indexes","description":"The Dow Jones industrial average joined major US stock indexes at record highs Monday, climbing on positive trade-deal hopes. The US and China are \"making good progress\" on a partial trade deal, US commerce secretary Wilbur Ross told Bloomberg Sunday. The S&P…","url":"https://www.businessinsider.com/stock-market-today-dow-hits-record-high-on-trade-optimism-2019-11","urlToImage":"https://image.businessinsider.com/5c40e7108d58f9417456c0d9?width=1200&format=jpeg","publishedAt":"2019-11-04T18:27:42Z","content":"The Dow Jones industrial average joined major indexes at record intraday highs Monday morning, climbing on positive trade-deal sentiments.\r\nThe S&amp;P 500 and Nasdaq Composite both hit record highs Friday following a better-than-expected US jobs report. The … [+1720 chars]"},{"source":{"id":"business-insider","name":"Business Insider"},"author":"Morgan McFall-Johnsen","title":"Over 1,500 California fires in the last 6 years — including the deadliest ever — were caused by one company: PG&E. Here’s what it could have done, but didn’t.","description":"Pacific Gas & Electric Co. (PG&E) power lines have caused over 1,500 California wildfires in the last six years, including the deadliest blaze in the state's history. Many critics, including California Gov. Gavin Newsom, accuse PG&E of prioritizing profits ov…","url":"https://www.businessinsider.com/pge-caused-california-wildfires-safety-measures-2019-10","urlToImage":"https://image.businessinsider.com/5dbb5b86e0ee7e6c232da942?width=1200&format=jpeg","publishedAt":"2019-11-03T14:52:55Z","content":"Over the last week, the Kincade Fire has torn through nearly 78,000 acres of California wine country, forcing about 180,000 people to evacuate. Meanwhile, millions have gone without electricity, often for days at a time.\r\nHospitals scrambled to find refrigera… [+13180 chars]"},{"source":{"id":null,"name":"7news.com.au"},"author":"George Ramsay","title":"NBA takes radical step to solve its China crisis - 7NEWS","description":"NBA takes radical step to solve its China crisis 7NEWS Time out? China's NBA row suddenly cools Rappler Hongkongers protest at NBA game in New York South China Morning Post Fiji's Latest News and Sports website Fijivillage Mike Pompeo joins politicians in sla…","url":"https://7news.com.au/sport/basketball/nba-takes-radical-step-to-solve-its-china-crisis-c-500275","urlToImage":"https://images.7news.com.au/publication/C-500275/0322246c6f8d87627914bcc5a3c33222394725c5-16x9-x0y16w1600h900.jpg?imwidth=1024","publishedAt":"2019-10-12T00:34:00Z","content":"The NBA has cancelled all media access for the remainder of its visit to China as it puts players in a \"complicated\" and \"unfair\" situation, it said.\r\nThe league is embroiled in a standoff with China after the Houston Rockets' general manager Daryl Morey twee… [+8500 chars]"},{"source":{"id":null,"name":"Yahoo.com"},"author":"Susie Cagle in San Francisco","title":"Thirty years after devastating quake, is San Francisco ready for the next?","description":"The 6.9-magnitude Loma Prieta quake killed 63 in 1989. Decades later, the Bay Area is still plagued by structural threats and flammable fuelsIn a 17 October 1989 photo, a California highway patrol officer checks the damage to cars that fell when the upper dec…","url":"https://news.yahoo.com/thirty-years-devastating-quake-san-050031159.html","urlToImage":"https://s.yimg.com/ny/api/res/1.2/6G8Rovkx4Fcg36xpieK89Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEwMDA7aD02MDA-/https://s.yimg.com/uu/api/res/1.2/T7qmarFahNtE9tEIC5BPvg--~B/aD0zMDA7dz01MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en-GB/the_guardian_765/6c029e203b19922ef870befc0eae9dbe","publishedAt":"2019-10-17T05:00:31Z","content":"Photograph: George Nikitin/AP\r\nOn the afternoon of 17 October 1989, a 6.9-magnitude earthquake rocked the San Francisco Bay Area, killing 63 people and causing $13bn in damages as it toppled a chunk of the Bay Bridge, colapsed a section of freeway in Oakland,… [+4877 chars]"},{"source":{"id":null,"name":"Yahoo.com"},"author":"Jonathan Gilbert","title":"Argentina’s Election Result May Be a Blow for Farmers, Boon for Drillers","description":"(Bloomberg) -- Alberto Fernandez strolled to victory in Sunday’s presidential elections in Argentina, a widely-expected outcome after he thrashed incumbent President Mauricio Macri in August’s primaries. After all the vague campaign speak, investors are now k…","url":"https://news.yahoo.com/argentina-election-result-may-blow-124302586.html","urlToImage":"https://s.yimg.com/ny/api/res/1.2/hpGBpJgVcKgpeQTIJ6erdg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD03MjA-/https://s.yimg.com/uu/api/res/1.2/49R5iVifDJBFZv_L5_KAYw--~B/aD02NzU7dz0xMjAwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_politics_602/93f3026673ca7d6541b5f51630339fa1","publishedAt":"2019-10-28T12:43:02Z","content":"(Bloomberg) -- Alberto Fernandez strolled to victory in Sundays presidential elections in Argentina, a widely-expected outcome after he thrashed incumbent President Mauricio Macri in Augusts primaries. After all the vague campaign speak, investors are now kee… [+4742 chars]"},{"source":{"id":"bbc-news","name":"BBC News"},"author":"https://www.facebook.com/bbcnews","title":"Saudi Aramco IPO: World's most profitable company to go public","description":"Stock market flotation of the Saudi oil giant Aramco could be the world's biggest initial public offering.","url":"https://www.bbc.co.uk/news/business-50070823","urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/6A8F/production/_109497272_gettyimages-73375788-1.jpg","publishedAt":"2019-11-03T07:44:28Z","content":"Image copyrightGetty Images\r\nSaudi Aramco has confirmed it is planning to list on the Riyadh stock exchange, in what could be the world's biggest initial public offering (IPO).\r\nThe state-owned oil giant made the announcement on Twitter (in Arabic), without g… [+4408 chars]"},{"source":{"id":null,"name":"Autoblog.comhttps"},"author":"Jonathon Ramsey","title":"Oil companies wasting natural gas, emitting large amounts of greenhouse gases","description":"Filed under: Government/Legal, Green, Emissions Continue reading Oil companies wasting natural gas, emitting large amounts of greenhouse gases Oil companies wasting natural gas, emitting large amounts of greenhouse gases originally appeared on Autoblog on Mon…","url":"https://www.autoblog.comhttps://www.autoblog.com/2019/10/21/oil-companies-flaring-venting-natural-gas/","urlToImage":"https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/800x450/format/jpg/quality/85/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-10/7919ff10-f379-11e9-a7bf-62e91b843159","publishedAt":"2019-10-21T14:36:00Z","content":"The New York Times recently looked at data on the way energy companies deal with natural gas in the three largest U.S. shale oil fields the Eagle Ford and Permian Basin fields in Texas, and the Bakken field in North Dakota that straddles the border with Canad… [+2680 chars]"},{"source":{"id":null,"name":"Marketwatch.com"},"author":"Claudia Assis","title":"The Ratings Game: Exxon, Chevron profits slide on lower oil prices","description":"Profit shrunk at Exxon Mobil Corp. and Chevron Corp. as the U.S. integrated oil and gas giants continue to feel the pressure from lower oil and gas prices and, at Chevron, a massive oil field beneath the steppes of Kazakhstan turned out to be costlier to deve…","url":"https://www.marketwatch.com/story/exxon-chevron-profits-slide-on-lower-oil-prices-2019-11-01","urlToImage":"http://s.marketwatch.com/public/resources/MWimages/MW-GM331_CVX_20_ZG_20180711132908.jpg","publishedAt":"2019-11-01T15:43:04Z","content":"Profit shrunk at Exxon Mobil Corp. and Chevron Corp. as the U.S. integrated oil and gas giants continued to feel the pressure from lower oil and gas prices and, at Chevron, a massive oil field beneath the steppes of Kazakhstan turned out to be costlier to dev… [+2846 chars]"},{"source":{"id":null,"name":"Marketwatch.com"},"author":"Rachel Koning Beals","title":"Ranked: Saudi Aramco, Chevron and other top companies responsible for one-third of all carbon emissions","description":"These 20 firms have contributed a combined 480 billion metric tons of carbon dioxide-equivalent since 1965.","url":"https://www.marketwatch.com/story/ranked-saudi-aramco-chevron-and-other-top-companies-responsible-for-one-third-of-all-carbon-emissions-2019-10-09","urlToImage":"http://s.marketwatch.com/public/resources/MWimages/MW-HP720_chevro_ZG_20190819122949.jpg","publishedAt":"2019-10-09T19:14:22Z","content":"State-owned and investor-driven enterprises among them, the list of fossil-fuel firms responsible for more than one-third of all carbon emissions may hold few surprises. \r\nYet the top five Saudi Aramco, U.S.-based Chevron\r\nCVX, +1.65%\r\nand ExxonMobil\r\nXOM, +1… [+3997 chars]"},{"source":{"id":null,"name":"Yahoo.com"},"author":"Tim O'Donnell","title":"20 companies are responsible for 35 percent of carbon emissions in the modern era, study shows","description":"A new study put 20 of the world's biggest fossil fuels in the spotlight, The Guardian reports. Unsurprisingly, it's not for a very flattering reason.The analysis by Richard Heede at the Climate Accountability Institute reveals that the 20 companies have contr…","url":"https://news.yahoo.com/20-companies-responsible-35-percent-175908031.html","urlToImage":"https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png","publishedAt":"2019-10-09T17:59:08Z","content":""},{"source":{"id":null,"name":"Yahoo.com"},"author":"Laura Litvan","title":"Bernie Sanders Proposes Ending All Corporate Giving in U.S. Elections","description":"(Bloomberg) -- Bernie Sanders unveiled a plan to end all corporate giving in federal elections, as he leads all other 2020 Democratic presidential contenders in fundraising by amassing small, individual donations.Sanders, who’s recovering in Vermont after a h…","url":"https://news.yahoo.com/sanders-proposes-ending-corporate-giving-100000279.html","urlToImage":"https://s.yimg.com/ny/api/res/1.2/gpniy4.fMjcND2ItW0PNhQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD04NTMuMzMzMzMzMzMzMzMzNA--/https://s.yimg.com/uu/api/res/1.2/pyTDmSLhTc1ArY6WX2DqHw--~B/aD0xMzMzO3c9MjAwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_politics_602/c7a41db5d413c09d6e8d908f95be5980","publishedAt":"2019-10-07T10:00:00Z","content":"(Bloomberg) -- Bernie Sanders unveiled a plan to end all corporate giving in federal elections, as he leads all other 2020 Democratic presidential contenders in fundraising by amassing small, individual donations.\r\nSanders, whos recovering in Vermont after a … [+4019 chars]"},{"source":{"id":null,"name":"Yahoo.com"},"author":"Jennifer A. Dlouhy","title":"Oil Drillers Get $18 Billion Break Thanks to Law Legislators Now Regret","description":"(Bloomberg) -- The U.S. has forfeited some $18 billion tied to oil and gas production in the Gulf of Mexico since 2000 because of a decades-old law that gave energy companies a break on paying royalties when drilling in deep waters, federal investigators conc…","url":"https://news.yahoo.com/oil-drillers-18-billion-break-160531648.html","urlToImage":"https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png","publishedAt":"2019-10-24T16:05:31Z","content":"(Bloomberg) -- The U.S. has forfeited some $18 billion tied to oil and gas production in the Gulf of Mexico since 2000 because of a decades-old law that gave energy companies a break on paying royalties when drilling in deep waters, federal investigators conc… [+2977 chars]"}]};
-
+   
 displayNews(newsApiOutput);
 console.log(newsApiOutput);
-console.log(newsApiOutput.articles[0]);
+console.log(newsApiOutput.data[0]);
 // console.log(newsApiOutput.articles.0.title);
 //console.log(newsApiOutput.articles.0.author);
 
 }
 
-
-
 function displayNews(newsApiOutput){
     document.getElementById('newsList').style.display="block";
     //var articleTitle='Article Title';
     //var numberResults=newsApiOutput['totalResults'];
-    var totalNum=20;
+    var totalNum=50;
     var newsInnerHTML="";
     for (var i = 0; i < totalNum; i++) {
-        var tempData=newsApiOutput.articles[i];
+        var tempData=newsApiOutput.data[i];
         articleTitle=tempData.title;
-        articleAuthor=tempData.author;
-        articleDate=tempData.publishedAt;
-        articlePic=tempData.urlToImage;
+        articleDate=tempData.date;
+        articlePic=tempData.image_url;
+        articleLink=tempData.news_url;
+        articleSentiment=tempData.sentiment;
+        articleSource=tempData.source_name;
+        articleTickers="";
+        for(var j = 0; j < tempData.tickers.length; j++){// could do something fancier with this later (e.g. link to other site)
+            if (j==0){
+                articleTickers += tempData.tickers[j]; 
+            }
+            else {
+                articleTickers += " | " + tempData.tickers[j] ;
+            }
+        }
         
         picHTML="<img src="+articlePic+" height='100'>"
-        articleHTML=htmlWrap(articleTitle,"h3");
-        articleAuthorHTML=htmlWrap(articleAuthor+", published: "+articleDate,"p");
-        tempInnerHTML = "<div id=article"+i+">"+picHTML+articleHTML+articleAuthorHTML+"</div>";
+        articleHTML="<a href='"+ articleLink + "'>"+ htmlWrap(articleTitle,"h3") + "</a>";
+        articleDetailsHTML=htmlWrap(articleSource+" | "+articleDate + " |  Sentiment: "+articleSentiment,"p");
+        articleTickersHTML=htmlWrap(articleTickers,"p");
+        tempInnerHTML = "<div id=article"+i+" style='border-style: solid; border-width: thin; border-radius: 15px; margin:1px; padding:5px'>"+picHTML+articleHTML+articleDetailsHTML+articleTickersHTML+"</div>";
         newsInnerHTML += tempInnerHTML;
             
     }          
@@ -61,7 +81,7 @@ function displayNews(newsApiOutput){
 
 function htmlWrap(content,tag){
  output = "<" + tag + ">" + content + "</" + tag + ">"
-    return output
+    return output;
 
 }
 function initMap() {
@@ -92,3 +112,7 @@ function searchMap(){
     xmlHttp.open("GET", searchURL, false); // true for asynchronous 
     xmlHttp.send();
 }
+
+$(':input:not(textarea)').keypress(function(event) { 
+    return event.keyCode != 13;
+});
