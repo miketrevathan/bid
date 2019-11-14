@@ -41,12 +41,12 @@ app.get('/company/:companyname',function(req,res){ //we'll need to update this
       }
   }
   //if name found, find file to use
-    var companyfile="fb.json";
-    var companynewsjson = require("./news/"+companyfile);
-    var companystatsjson = require("./stats/"+companyfile);
-    var generalstatsjson = require("./stats/general.json");
+    var companyFile="fb.json";
+    var articles = require("./news/"+companyFile);
+    var stats = require("./stats/"+companyFile);
+    var generalStats = require("./stats/general.json");
 
-    msg={"msg":"Successfully delievered","articles":companynewsjson,"stats":companystatsjson,"general_stats":generalstatsjson,"success":"1"};
+    msg={"msg":"Successfully delievered news items","articles":articles,"stats":stats,"general_stats":generalStats,"success":"1"};
 
     res.send(msg);
 });
