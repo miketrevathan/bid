@@ -30,7 +30,9 @@ console.log(newsApiOutput.articles[0]);
 
 }
 
-
+$(function() {
+    $("form").submit(function() { return false; });
+});
 
 function displayNews(newsApiOutput){
     document.getElementById('newsList').style.display="block";
@@ -92,7 +94,3 @@ function searchMap(){
     xmlHttp.open("GET", searchURL, false); // true for asynchronous 
     xmlHttp.send();
 }
-
-$(':input:not(textarea)').keypress(function(event) { 
-    return event.keyCode != 13;
-});

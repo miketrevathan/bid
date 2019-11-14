@@ -4315,15 +4315,13 @@ input[type="button"].btn-block {
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
+  width: 50%;
   word-wrap: break-word;
   background-color: #fff;
-  background-clip: border-box;
   border: 1px solid #e3e6f0;
-  border-radius: 0.35rem;
+  border-radius: .35rem;
+  font-family: 'Calibri';
+  font-size: '10px' ;
 }
 
 .card > hr {
@@ -4332,7 +4330,7 @@ input[type="button"].btn-block {
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
-  border-top-left-radius: 0.35rem;
+  border-top-left-radius: .35rem;
   border-top-right-radius: 0.35rem;
 }
 
@@ -9516,7 +9514,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .container {
-    min-width: 992px !important;
+    width: 992px !important;
   }
   .navbar {
     display: none;
@@ -9579,7 +9577,7 @@ a:focus {
 
 .container,
 .container-fluid {
-  padding-left: 1.5rem;
+  padding-left: 1.5 rem;
   padding-right: 1.5rem;
 }
 
@@ -9594,6 +9592,11 @@ a:focus {
   color: #fff;
   background: rgba(90, 92, 105, 0.5);
   line-height: 46px;
+}
+
+.scroll {
+  max-height: 100px;
+  overflow-y: scroll;
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
@@ -10536,7 +10539,6 @@ a:focus {
   font-weight: 900;
   content: '\f107';
   font-family: 'Font Awesome 5 Free';
-  color: #d1d3e2;
 }
 
 .card .card-header[data-toggle="collapse"].collapsed {

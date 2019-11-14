@@ -46,4 +46,10 @@
     e.preventDefault();
   });
 
+  document.getElementById('searchForm').addEventListener('submit', function(e) {
+    search(document.getElementById('searchText'));
+    e.preventDefault();
+}, false);
+
+  
 })(jQuery); // End of use strict
