@@ -112,3 +112,7 @@ function searchMap(){
     xmlHttp.open("GET", searchURL, false); // true for asynchronous 
     xmlHttp.send();
 }
+
+$(':input:not(textarea)').keypress(function(event) { 
+    return event.keyCode != 13;
+});
